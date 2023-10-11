@@ -1,0 +1,144 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Common Styles for All Pages */
+body {
+    font-family: "Times New Roman", Times, serif;
+    background-image: url('background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: #13082f;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: right;
+}
+
+.header-title {
+    text-align: left;
+}
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    font-weight: bold;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.content {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #333;
+    font-weight: normal;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 80px;
+}
+
+.content h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #090410;
+}
+
+.content p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.content ul {
+    font-size: 18px;
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #0c0226;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Additional CSS specific to CV page */
+.cv-content {
+    max-width: 800px;
+    margin: 80px auto 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cv-heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.cv-section {
+    margin-bottom: 20px;
+}
+
+.cv-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.cv-section ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.cv-section p {
+    margin-bottom: 10px;
+}
+
+/* Styles for Image Container */
+.image-container {
+    position: fixed;
+    top: 45%;
+    right: 0;
+    transform: translateY(-70%);
+    max-width: 50%; 
+    height: auto;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* New Styles for Home Page */
+.home-content {
+    margin-right: 80px;
+    margin-left: 20px; 
+    padding-right: 40%; 
+}
